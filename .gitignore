@@ -1,0 +1,41 @@
+# Laravel & PHP related
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*.php
+.env.testing
+
+# Laravel 8+ mix and vite
+/public/hot
+/public/mix-manifest.json
+/public/build
+
+# Laravel IDE Helper
+.phpstorm.meta.php
+/_ide_helper.php
+/_ide_helper_models.php
+
+# Composer & NPM/Yarn related
+composer.lock
+yarn.lock
+package-lock.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+phpunit.result.cache
+
+# Cache & logs
+/storage/app/public
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Vite
+vite.config.js
+/public/build/assets

@@ -4,6 +4,12 @@
 
 <div class="container">
         <h3 align="center" class="mt-5">Employee Management</h3>
+        <div>
+            <a href="{{ url('/') }}">
+                <button class="btn btn-secondary">Go Back</button>
+            </a>
+        </div>
+
         <div class="row">
             <div class="col-md-2">
             </div>
